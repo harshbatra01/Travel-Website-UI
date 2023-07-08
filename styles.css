@@ -1,0 +1,1341 @@
+*{
+    text-decoration: none;
+    color:black;
+}
+.a{
+    font-family: Lato;
+    padding-right: 15px;
+    padding-left: 18px;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.navbar{
+    padding-right: 30px;
+    margin-left: 10px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+button{
+    font-family: Lato;
+    margin-right: 20px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;    
+}
+
+.signIn{
+    border-style:solid;
+    border-color: black;
+    border-width: 1px;
+   height: 34px;
+   width: 100px;
+}
+
+.logIn{
+    border-color: transparent;
+}
+
+/* Jadoo */
+.logo{
+    font-family: Lato;
+    font-size: 35px; /* Adjust the font size as needed */
+    color: #000000; /* Set the desired color for the logo */
+    position: relative; /* Change 'absolute' to 'relative' */
+    left: 0; /* Remove 'px' from 'left' property */
+    margin-left: 80px;
+    font-weight: 900;
+}
+
+.Logo{
+    height: 30px;
+    width:auto;
+    margin-left: 60px 
+}
+
+.traveller{
+    position: absolute;
+width: 620px;
+height: 620px;
+left: 750px;
+top: 130px;
+
+}
+
+/* Decore */
+.orangeDecor{
+    position: absolute;
+    width: 766.31px;
+    height: 872.58px;
+    left: 800px;
+    top: -159px;
+  background-color: #FFF1DA;
+  border-radius: 85% 15% 0% 100% / 31% 0% 100% 69%; 
+  z-index: -1;
+
+}
+.purpleDecor{
+position: absolute;
+width: 600px;
+height: 800px;
+left: -356px;
+top: -100px;
+background: #D5AEE4;
+opacity: 0.3;
+filter: blur(100px);
+}
+
+.travel-line {
+   /* Heading */
+   white-space: pre-wrap;
+position: absolute;
+width: 630px;
+height: 260px;
+left: 84px;
+top: 190px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 900;
+line-height: 100px;
+font-size: 91px;
+/* or 106% */
+letter-spacing: -0.04em;
+
+/* 1st */
+color: #181E4B;
+}
+
+.best-line{
+    font-family: 'poppins';
+    /* Tagline */
+
+position: absolute;
+width: 450px;
+height: 30px;
+left: 90px;
+top: 217px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #DF6951;
+
+
+}
+
+.built-line{
+    /* Desc */
+
+position: absolute;
+width: 580px;
+height: 90px;
+left: 90px;
+top: 575px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+color: #5E6282;
+
+
+}
+
+.Find{
+    /* Desc */
+
+position: absolute;
+width: 180px;
+height: 58px;
+left: 90px;
+top: 660px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+
+border-radius: 15px;
+border-color: orange;
+background-color: orange;
+box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.3);
+
+color: white;
+}
+
+.play{
+    /* Play Demo */
+
+position: absolute;
+width: 150px;
+height: 40px;
+left: 400px;
+top: 675px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+/* text color */
+color: #686D77;
+
+
+}
+
+.circle{
+    
+border-radius: 100px;
+
+
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 325px;
+top: 663px;
+
+background: #DF6951;
+box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.4);
+}
+
+.trianlge{
+position: absolute;
+left: 348px;
+top: 686px;
+/* width: 15px;
+height: 15px; */
+
+width: 0;
+height: 0;
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+border-bottom: 13px solid white; 
+
+background: #DF6951;
+transform: rotate(90deg);
+
+}
+
+.cat{
+    /* CATEGORY */
+
+position: absolute;
+width: 98px;
+height: 27px;
+left: 652px;
+top: 974px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.We-title{
+    /* We Offer Best Services */
+
+position: absolute;
+width: 600px;
+height: 60px;
+left: 428px;
+top: 990px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+
+/* 3rd */
+color: #14183E;
+
+
+}
+
+.card1{
+
+position: absolute;
+left: 60px;
+top: 1150px;
+background-color: white;
+border-color: red;
+border-width: 20px;
+border-radius: 40px;
+
+width: 285px;
+height:320px;
+
+}
+
+.card1 img{
+    margin-left: 80px;
+    margin-top: 30px;
+   width: 115px
+
+}
+
+.card1 h3{
+    font-family: 'Poppins';
+    font-weight:300;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card1 p{
+    /* white-space: pre-wrap;
+    font-family: 'Poppins';
+    font-weight:300;
+    margin-left:75px;
+    margin-bottom: 10px; */
+    margin-top: -10px;
+    font-weight:300;
+    white-space: pre-wrap;
+    color: #5f6383;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+
+.card2{
+
+    position: absolute;
+    left: 405px;
+    top: 1150px;
+    background-color: white;
+    border-color: red;
+    border-width: 20px;
+    border-radius: 40px;
+    
+    width: 285px;
+height:320px;
+    
+    }
+    
+    .card2 img{
+        margin-left: 80px;
+        margin-top: 30px;
+       width: 115px
+    
+    }
+    
+    .card2 h3{
+        font-family: 'Poppins';
+        font-weight:300;
+        font-size: 22px;
+        text-align: center;    }
+    
+    .card2 p{
+        /* white-space: pre-wrap;
+        font-family: 'Poppins';
+        font-weight:300;
+        margin-left:75px;
+        margin-bottom: 10px; */
+        margin-top: -10px;
+        text-align: center;
+        font-weight:300;
+        white-space: pre-wrap;
+        color: #5f6383;
+        font-family: Poppins;
+        font-weight: Medium;
+        font-size: 16px;
+        opacity: 1;
+    }
+
+
+    .card3{
+
+        position: absolute;
+        left: 750px;
+        top: 1150px;
+        background-color: white;
+        border-color: red;
+        border-width: 20px;
+        border-radius: 40px;
+        
+        width: 285px;
+height:320px;
+        
+        }
+        
+        .card3 img{
+            margin-left: 80px;
+            margin-top: 30px;
+           width: 115px
+        
+        }
+        
+        .card3 h3{
+            font-family: 'Poppins';
+            font-weight:300;
+            font-size: 22px;
+            text-align: center;
+        }
+        
+        .card3 p{
+            /* white-space: pre-wrap;
+            font-family: 'Poppins';
+            font-weight:300;
+            margin-left:75px;
+            margin-bottom: 10px; */
+            margin-top: -10px;
+            text-align: center;
+            font-weight:300;
+            white-space: pre-wrap;
+            color: #5f6383;
+            font-family: Poppins;
+            font-weight: Medium;
+            font-size: 16px;
+            opacity: 1;
+        }
+
+        
+        .card4{
+
+            position: absolute;
+            left: 1095px;
+            top: 1150px;
+            background-color: white;
+            border-color: red;
+            border-width: 20px;
+            border-radius: 40px;
+            
+            width: 285px;
+            height:320px;
+            
+            }
+            
+            .card4 img{
+                margin-left: 80px;
+                margin-top: 30px;
+               width: 115px
+            
+            }
+            
+            .card4 h3{
+                font-family: 'Poppins';
+                font-weight:300;
+                font-size: 22px;
+                text-align: center;
+            }
+            
+            .card4 p{
+                /* white-space: pre-wrap;
+                font-family: 'Poppins';
+                font-weight:300;
+                margin-left:75px;
+                margin-bottom: 10px; */
+                text-align: center;
+                margin-top: -10px;
+                text-align: center;
+                font-weight:300;
+                white-space: pre-wrap;
+                color: #5f6383;
+                font-family: Poppins;
+                font-weight: Medium;
+                font-size: 16px;
+                opacity: 1;
+            }
+
+  
+.top-title{
+        color: #5f6383;
+        font-family: Poppins;
+        font-weight: SemiBold;
+        font-size: 18px;
+        opacity: 1;
+        font-size: 14px;
+        box-sizing: border-box;
+
+        /* Subheading */
+
+position: absolute;
+width: 120px;
+height: 27px;
+left: 632px;
+top: 1614px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+
+}
+     
+     
+ 
+
+              
+
+.Card1{
+position: absolute;
+width: 314px;
+height: 457px;
+left: 174px;
+top: 1774px;
+
+filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+border-radius: 24px;
+box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);}
+
+.Card2{
+    /* Rectangle 14 */
+
+position: absolute;
+width: 314px;
+height: 457px;
+left: 524px;
+top: 1774px;
+
+filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+border-radius: 24px;
+box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.Card3{
+    /* Rectangle 14 */
+
+position: absolute;
+width: 314px;
+height: 457px;
+left: 874px;
+top: 1774px;
+
+filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+border-radius: 24px;
+box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+.Card1-text{
+position: absolute;
+width: 107px;
+height: 22px;
+left: 193px;
+top: 2128px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+/* TEXT CLR */
+color: #5E6282;
+}
+
+.Card1-5{
+    /* $5,42k */
+
+position: absolute;
+width: 60px;
+height: 22px;
+left: 403px;
+top: 2129px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+/* TEXT CLR */
+color: #5E6282;
+}
+
+.Card1-nav{
+    /* Navigation */
+
+position: absolute;
+left: 9.37%;
+right: 9.38%;
+top: 9.37%;
+bottom: 9.37%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.37%;
+right: 9.38%;
+top: 9.37%;
+bottom: 9.37%;
+
+/* black */
+/* navigation 1 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 193px;
+top: 2169px;
+
+
+}
+
+.Card1-days{
+    /* 10 Days Trip */
+
+position: absolute;
+width: 95px;
+height: 20px;
+left: 217px;
+top: 2169px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+
+color: #5E6282;
+
+
+}
+
+
+.Card2-text{
+    /* London, UK */
+
+position: absolute;
+width: 100px;
+height: 22px;
+left: 543px;
+top: 2128px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+    }
+    
+    .Card2-5{
+        /* $4.2k */
+
+position: absolute;
+width: 49px;
+height: 22px;
+left: 763px;
+top: 2129px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+    }
+    
+    .Card2-nav{
+        /* navigation 1 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 543px;
+top: 2169px;
+    }
+    
+    .Card2-days{
+      /* 12 Days Trip */
+
+position: absolute;
+width: 94px;
+height: 20px;
+left: 568px;
+top: 2169px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+    
+    
+    }
+
+
+
+.Card3-text{
+    /* Full Europe */
+
+position: absolute;
+width: 98px;
+height: 22px;
+left: 898px;
+top: 2129px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+
+    }
+    
+    .Card3-5{
+      /* $15k */
+
+position: absolute;
+width: 40px;
+height: 22px;
+left: 1108px;
+top: 2129px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+
+
+    }
+    
+    .Card3-nav{
+        /* navigation 1 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 898px;
+top: 2169px;
+
+
+
+
+    }
+    
+    .Card3-days{
+      /* 28 Days Trip */
+
+position: absolute;
+width: 99px;
+height: 20px;
+left: 926px;
+top: 2169px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+    
+    }
+
+.top-title2{
+    /* Heading */
+
+position: absolute;
+width: 428px;
+height: 65px;
+left: 490px;
+top: 1649px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+
+/* 3rd */
+color: #14183E;
+
+
+}
+
+.photo{
+    /* Rectangle 16 */
+
+position: absolute;
+width: 520px;
+height: auto;
+left: 975px;
+top: 2435px;
+
+/* white */
+background: #FFFFFF;
+border-radius: 26px;
+
+}
+
+.easy{
+    /* Subheading */
+
+position: absolute;
+width: 126px;
+height: 27px;
+left: 189px;
+top: 2417px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.book{
+    /* Heading */
+
+position: absolute;
+width: 511px;
+height: 130px;
+left: 186px;
+top: 2459px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-transform: capitalize;
+
+/* 3rd */
+color: #14183E;
+
+
+}
+
+.choose1 h5{
+    /* Choose Destination */
+
+position: absolute;
+width: 161px;
+height: 20px;
+left: 254px;
+top: 2620px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.choose1 p{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
+
+position: absolute;
+width: 327px;
+height: 40px;
+left: 254px;
+top: 2659px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 124.5%;
+/* or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.choose2 h5{
+    /* Make Payment */
+
+position: absolute;
+width: 124px;
+height: 20px;
+left: 254px;
+top: 2732px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.choose2 p{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
+
+position: absolute;
+width: 327px;
+height: 40px;
+left: 254px;
+top: 2771px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 124.5%;
+/* or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.choose3 h5{
+    /* Reach Airport on Selected Date */
+
+position: absolute;
+width: 254px;
+height: 20px;
+left: 254px;
+top: 2844px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.choose3 p{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
+
+position: absolute;
+width: 327px;
+height: 40px;
+left: 254px;
+top: 2884px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 124.5%;
+/* or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.choose1 img{
+    /* Rectangle 21 */
+
+position: absolute;
+width: 58px;
+left: 178px;
+top: 2650px;
+
+/* 3 */
+background: #F0BB1F;
+border-radius: 13px;
+
+}
+
+.choose2 img{
+    /* Rectangle 21 */
+
+position: absolute;
+width: 58px;
+left: 178px;
+top: 2762px;
+
+/* 4 */
+background: #F15A2B;
+border-radius: 13px;
+
+}
+
+.choose3 img{
+    /* Rectangle 22 */
+
+position: absolute;
+width: 58px;
+left: 178px;
+top: 2874px;
+
+/* 5 */
+background: #006380;
+border-radius: 13px;
+
+}
+
+.test{
+    /* Subheading */
+
+position: absolute;
+width: 128px;
+height: 27px;
+left: 165px;
+top: 3111px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+text-transform: uppercase;
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+}
+
+.what{
+    /* Heading */
+
+position: absolute;
+width: 409px;
+height: 130px;
+left: 165px;
+top: 3146px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-transform: capitalize;
+
+/* 3rd */
+color: #14183E;
+
+
+}
+
+.icons1{
+    /* image 27 */
+
+position: absolute;
+width: 130px;
+left: 186px;
+top: 3577px;
+
+mix-blend-mode: luminosity;
+
+}
+
+.icons2{
+    /* image 28 */
+
+position: absolute;
+width: 172.86px;
+left: 393px;
+top: 3577px;
+
+mix-blend-mode: luminosity;
+
+}
+
+.icons3{
+    /* image 29 */
+
+position: absolute;
+width: 162px;
+left: 656px;
+top: 3577px;
+
+}
+
+.icons4{
+    /* image 30 */
+
+position: absolute;
+width: 162px;
+left: 904px;
+top: 3577px;
+
+mix-blend-mode: luminosity;
+
+}
+
+.icons5{
+    /* image 31 */
+
+position: absolute;
+width: 94px;
+left: 1165px;
+top: 3577px;
+mix-blend-mode: luminosity;
+
+}
+
+.decor3{
+    /* Rectangle 164 */
+
+position: absolute;
+width: 1270px;
+height: 337px;
+left: 80px;
+top: 3747px;
+
+/* light color */
+background: #d0c3fa;
+opacity: 0.2;
+border-radius: 70px 20px 20px 20px;
+}
+
+.sub{
+
+position: absolute;
+width: 459px;
+height: 208px;
+left: 491px;
+top: 3806px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 40px;
+/* or 164% */
+text-align: center;
+
+/* TEXT CLR */
+color: #5E6282;
+white-space: pre-wrap;
+
+
+
+}
+
+
+
+.subscibe-form w-form {
+   /* Rectangle 23 */
+
+position: absolute;
+width: 421px;
+height: 68px;
+left: 387px;
+top: 4108px;
+
+/* white */
+background: #FFFFFF;
+border-radius: 10px;
+
+}
+
+.review{
+    /* Rectangle 18 */
+
+position: absolute;
+width: 654px;
+height: 255px;
+left: 698px;
+top: 3136px;
+
+/* white */
+background: #FFFFFF;
+box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+border-radius: 10px;
+
+}
+
+.custom-form input[type="email"] {
+  /* Rectangle 23 */
+
+position: absolute;
+width: 521px;
+height: 42px;
+left: 387px;
+top: 3958px;
+
+/* white */
+background: #FFFFFF;
+border-radius: 10px;
+border: none;
+
+  }
+
+  .foot{
+    top: 4120px;
+    left: 128px;
+    position: absolute;
+    height: 245px;
+    width: 1168px;
+
+  }
+
+  .caption{
+    /* Copyrights */
+
+position: absolute;
+width: 203px;
+height: 17px;
+left: 616px;
+top: 4348px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 124.5%;
+/* or 17px */
+
+/* TEXT CLR */
+color: #5E6282;
+
+
+  }
+
+.s{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 135px;
+height: 50px;
+left: 932px;
+top: 3956px;
+
+/* gradient */
+background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+border-radius: 10px;
+
+}
+
+.s p{
+    color: white;
+    top: 3936px;
+    left: 932px;
+
+    
+
+}
+
+.img1{
+    background-image:url(./images/v1:169.png);
+    position: relative;
+    height:340px;
+    border-radius: 24px 24px 0 0 ;
+
+}
+
+
+.img2{
+    background-image:url(./images/v1:179.jpeg);
+    position: relative;
+    height:340px;
+    border-radius: 24px 24px 0 0 ;
+
+}
+
+.img3{
+    background-image:url(./images/617ffa617aba0a9188ee945d_1635777119934-image4-p-1080.jpeg);
+    position: relative;
+    height:340px;
+    border-radius: 24px 24px 0 0 ;
+
+}
