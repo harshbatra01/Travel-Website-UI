@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-li{
+.a{
     list-style: none;
     display: inline-block;
     margin-right: 15px;
@@ -50,13 +50,12 @@ button{
     border-color: transparent;
 }
 
-/* Jadoo */
 .logo{
     font-family: Lato;
-    font-size: 35px; /* Adjust the font size as needed */
-    color: #000000; /* Set the desired color for the logo */
-    position: relative; /* Change 'absolute' to 'relative' */
-    left: 0; /* Remove 'px' from 'left' property */
+    font-size: 35px; 
+    color: #000000; 
+    position: relative;
+    left: 0;
     margin-left: 80px;
     font-weight: 900;
 }
@@ -76,7 +75,6 @@ top: 130px;
 
 }
 
-/* Decore */
 .orangeDecor{
     position: absolute;
     width: 766.31px;
@@ -100,7 +98,6 @@ filter: blur(100px);
 }
 
 .travel-line {
-   /* Heading */
    white-space: pre-wrap;
 position: absolute;
 width: 630px;
@@ -113,16 +110,13 @@ font-style: normal;
 font-weight: 900;
 line-height: 100px;
 font-size: 91px;
-/* or 106% */
 letter-spacing: -0.04em;
 
-/* 1st */
 color: #181E4B;
 }
 
 .best-line{
     font-family: 'poppins';
-    /* Tagline */
 
 position: absolute;
 width: 450px;
@@ -135,7 +129,6 @@ font-style: normal;
 font-weight: 900;
 font-size: 20px;
 line-height: 30px;
-/* identical to box height */
 text-transform: uppercase;
 
 color: #DF6951;
@@ -144,7 +137,6 @@ color: #DF6951;
 }
 
 .built-line{
-    /* Desc */
 
 position: absolute;
 width: 580px;
@@ -165,7 +157,6 @@ color: #5E6282;
 }
 
 .Find{
-    /* Desc */
 
 position: absolute;
 width: 180px;
@@ -188,7 +179,6 @@ color: white;
 }
 
 .play{
-    /* Play Demo */
 
 position: absolute;
 width: 150px;
@@ -201,9 +191,7 @@ font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 26px;
-/* identical to box height */
 
-/* text color */
 color: #686D77;
 
 
@@ -229,8 +217,7 @@ box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.4);
 position: absolute;
 left: 348px;
 top: 686px;
-/* width: 15px;
-height: 15px; */
+
 
 width: 0;
 height: 0;
@@ -244,7 +231,7 @@ transform: rotate(90deg);
 }
 
 .cat{
-    /* CATEGORY */
+ 
 
 position: absolute;
 width: 98px;
@@ -257,17 +244,16 @@ font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
+
 text-align: center;
 
-/* TEXT CLR */
+
 color: #5E6282;
 
 
 }
 
 .We-title{
-    /* We Offer Best Services */
 
 position: absolute;
 width: 600px;
@@ -280,11 +266,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 64px;
-/* identical to box height */
 text-align: center;
 text-transform: capitalize;
 
-/* 3rd */
 color: #14183E;
 
 
@@ -320,11 +304,7 @@ height:320px;
 }
 
 .card1 p{
-    /* white-space: pre-wrap;
-    font-family: 'Poppins';
-    font-weight:300;
-    margin-left:75px;
-    margin-bottom: 10px; */
+ 
     margin-top: -10px;
     font-weight:300;
     white-space: pre-wrap;
@@ -367,11 +347,7 @@ height:320px;
         text-align: center;    }
     
     .card2 p{
-        /* white-space: pre-wrap;
-        font-family: 'Poppins';
-        font-weight:300;
-        margin-left:75px;
-        margin-bottom: 10px; */
+     
         margin-top: -10px;
         text-align: center;
         font-weight:300;
@@ -414,11 +390,7 @@ height:320px;
         }
         
         .card3 p{
-            /* white-space: pre-wrap;
-            font-family: 'Poppins';
-            font-weight:300;
-            margin-left:75px;
-            margin-bottom: 10px; */
+           
             margin-top: -10px;
             text-align: center;
             font-weight:300;
@@ -461,11 +433,7 @@ height:320px;
             }
             
             .card4 p{
-                /* white-space: pre-wrap;
-                font-family: 'Poppins';
-                font-weight:300;
-                margin-left:75px;
-                margin-bottom: 10px; */
+                
                 text-align: center;
                 margin-top: -10px;
                 text-align: center;
@@ -488,7 +456,7 @@ height:320px;
         font-size: 14px;
         box-sizing: border-box;
 
-        /* Subheading */
+        
 
 position: absolute;
 width: 120px;
@@ -501,10 +469,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
 text-align: center;
 
-/* TEXT CLR */
 color: #5E6282;
 
 
@@ -528,7 +494,6 @@ border-radius: 24px;
 box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);}
 
 .Card2{
-    /* Rectangle 14 */
 
 position: absolute;
 width: 314px;
@@ -544,7 +509,6 @@ box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
 }
 
 .Card3{
-    /* Rectangle 14 */
 
 position: absolute;
 width: 314px;
@@ -570,14 +534,11 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 124.5%;
-/* or 22px */
 
-/* TEXT CLR */
 color: #5E6282;
 }
 
 .Card1-5{
-    /* $5,42k */
 
 position: absolute;
 width: 60px;
@@ -590,14 +551,11 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 124.5%;
-/* or 22px */
 
-/* TEXT CLR */
 color: #5E6282;
 }
 
 .Card1-nav{
-    /* Navigation */
 
 position: absolute;
 left: 9.37%;
@@ -607,7 +565,7 @@ bottom: 9.37%;
 
 
 
-/* Vector */
+
 
 position: absolute;
 left: 9.37%;
@@ -615,8 +573,7 @@ right: 9.38%;
 top: 9.37%;
 bottom: 9.37%;
 
-/* black */
-/* navigation 1 */
+
 
 position: absolute;
 width: 20px;
@@ -628,7 +585,7 @@ top: 2169px;
 }
 
 .Card1-days{
-    /* 10 Days Trip */
+ 
 
 position: absolute;
 width: 95px;
@@ -649,7 +606,7 @@ color: #5E6282;
 
 
 .Card2-text{
-    /* London, UK */
+  
 
 position: absolute;
 width: 100px;
@@ -662,16 +619,14 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 124.5%;
-/* or 22px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
     }
     
     .Card2-5{
-        /* $4.2k */
+   
 
 position: absolute;
 width: 49px;
@@ -684,16 +639,14 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 124.5%;
-/* or 22px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
     }
     
     .Card2-nav{
-        /* navigation 1 */
+
 
 position: absolute;
 width: 20px;
@@ -703,7 +656,7 @@ top: 2169px;
     }
     
     .Card2-days{
-      /* 12 Days Trip */
+  
 
 position: absolute;
 width: 94px;
@@ -716,9 +669,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 124.5%;
-/* identical to box height, or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
@@ -729,7 +680,7 @@ color: #5E6282;
 
 
 .Card3-text{
-    /* Full Europe */
+ 
 
 position: absolute;
 width: 98px;
@@ -742,9 +693,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 124.5%;
-/* or 22px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
@@ -752,7 +701,7 @@ color: #5E6282;
     }
     
     .Card3-5{
-      /* $15k */
+  
 
 position: absolute;
 width: 40px;
@@ -765,9 +714,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 124.5%;
-/* or 22px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
@@ -776,7 +723,7 @@ color: #5E6282;
     }
     
     .Card3-nav{
-        /* navigation 1 */
+    
 
 position: absolute;
 width: 20px;
@@ -790,8 +737,7 @@ top: 2169px;
     }
     
     .Card3-days{
-      /* 28 Days Trip */
-
+    
 position: absolute;
 width: 99px;
 height: 20px;
@@ -803,9 +749,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 124.5%;
-/* identical to box height, or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
@@ -813,8 +757,7 @@ color: #5E6282;
     }
 
 .top-title2{
-    /* Heading */
-
+  
 position: absolute;
 width: 428px;
 height: 65px;
@@ -826,18 +769,17 @@ font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 64px;
-/* identical to box height */
+
 text-align: center;
 text-transform: capitalize;
 
-/* 3rd */
+
 color: #14183E;
 
 
 }
 
 .photo{
-    /* Rectangle 16 */
 
 position: absolute;
 width: 520px;
@@ -845,14 +787,14 @@ height: auto;
 left: 975px;
 top: 2435px;
 
-/* white */
+
 background: #FFFFFF;
 border-radius: 26px;
 
 }
 
 .easy{
-    /* Subheading */
+
 
 position: absolute;
 width: 126px;
@@ -865,17 +807,17 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
+
 text-align: center;
 
-/* TEXT CLR */
+
 color: #5E6282;
 
 
 }
 
 .book{
-    /* Heading */
+
 
 position: absolute;
 width: 511px;
@@ -890,14 +832,14 @@ font-size: 50px;
 line-height: 64px;
 text-transform: capitalize;
 
-/* 3rd */
+
 color: #14183E;
 
 
 }
 
 .choose1 h5{
-    /* Choose Destination */
+
 
 position: absolute;
 width: 161px;
@@ -910,16 +852,13 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 124.5%;
-/* identical to box height, or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
 }
 
 .choose1 p{
-    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
 
 position: absolute;
 width: 327px;
@@ -932,16 +871,14 @@ font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 124.5%;
-/* or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
 }
 
 .choose2 h5{
-    /* Make Payment */
+ 
 
 position: absolute;
 width: 124px;
@@ -954,16 +891,13 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 124.5%;
-/* identical to box height, or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
 }
 
 .choose2 p{
-    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
 
 position: absolute;
 width: 327px;
@@ -976,16 +910,13 @@ font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 124.5%;
-/* or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
 }
 
 .choose3 h5{
-    /* Reach Airport on Selected Date */
 
 position: absolute;
 width: 254px;
@@ -998,16 +929,13 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 124.5%;
-/* identical to box height, or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
 }
 
 .choose3 p{
-    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
 
 position: absolute;
 width: 327px;
@@ -1020,58 +948,56 @@ font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 124.5%;
-/* or 20px */
 
-/* TEXT CLR */
 color: #5E6282;
 
 
 }
 
 .choose1 img{
-    /* Rectangle 21 */
+ 
 
 position: absolute;
 width: 58px;
 left: 178px;
 top: 2650px;
 
-/* 3 */
+
 background: #F0BB1F;
 border-radius: 13px;
 
 }
 
 .choose2 img{
-    /* Rectangle 21 */
+
 
 position: absolute;
 width: 58px;
 left: 178px;
 top: 2762px;
 
-/* 4 */
+
 background: #F15A2B;
 border-radius: 13px;
 
 }
 
 .choose3 img{
-    /* Rectangle 22 */
+  
 
 position: absolute;
 width: 58px;
 left: 178px;
 top: 2874px;
 
-/* 5 */
+
 background: #006380;
 border-radius: 13px;
 
 }
 
 .test{
-    /* Subheading */
+
 
 position: absolute;
 width: 128px;
@@ -1084,17 +1010,15 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
+
 text-transform: uppercase;
 
-/* TEXT CLR */
 color: #5E6282;
 
 
 }
 
 .what{
-    /* Heading */
 
 position: absolute;
 width: 409px;
@@ -1109,14 +1033,12 @@ font-size: 50px;
 line-height: 64px;
 text-transform: capitalize;
 
-/* 3rd */
 color: #14183E;
 
 
 }
 
 .icons1{
-    /* image 27 */
 
 position: absolute;
 width: 130px;
@@ -1128,7 +1050,6 @@ mix-blend-mode: luminosity;
 }
 
 .icons2{
-    /* image 28 */
 
 position: absolute;
 width: 172.86px;
@@ -1140,7 +1061,6 @@ mix-blend-mode: luminosity;
 }
 
 .icons3{
-    /* image 29 */
 
 position: absolute;
 width: 162px;
@@ -1150,7 +1070,7 @@ top: 3577px;
 }
 
 .icons4{
-    /* image 30 */
+ 
 
 position: absolute;
 width: 162px;
@@ -1162,7 +1082,7 @@ mix-blend-mode: luminosity;
 }
 
 .icons5{
-    /* image 31 */
+  
 
 position: absolute;
 width: 94px;
@@ -1173,7 +1093,7 @@ mix-blend-mode: luminosity;
 }
 
 .decor3{
-    /* Rectangle 164 */
+
 
 position: absolute;
 width: 1270px;
@@ -1181,7 +1101,7 @@ height: 337px;
 left: 80px;
 top: 3747px;
 
-/* light color */
+
 background: #d0c3fa;
 opacity: 0.2;
 border-radius: 70px 20px 20px 20px;
@@ -1200,10 +1120,10 @@ font-style: normal;
 font-weight: 500;
 font-size: 23px;
 line-height: 40px;
-/* or 164% */
+
 text-align: center;
 
-/* TEXT CLR */
+
 color: #5E6282;
 white-space: pre-wrap;
 
@@ -1214,7 +1134,7 @@ white-space: pre-wrap;
 
 
 .subscibe-form w-form {
-   /* Rectangle 23 */
+
 
 position: absolute;
 width: 421px;
@@ -1222,14 +1142,14 @@ height: 68px;
 left: 387px;
 top: 4108px;
 
-/* white */
+
 background: #FFFFFF;
 border-radius: 10px;
 
 }
 
 .review{
-    /* Rectangle 18 */
+   
 
 position: absolute;
 width: 654px;
@@ -1237,7 +1157,7 @@ height: 255px;
 left: 698px;
 top: 3136px;
 
-/* white */
+
 background: #FFFFFF;
 box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
 border-radius: 10px;
@@ -1245,7 +1165,7 @@ border-radius: 10px;
 }
 
 .custom-form input[type="email"] {
-  /* Rectangle 23 */
+ 
 
 position: absolute;
 width: 521px;
@@ -1253,7 +1173,7 @@ height: 42px;
 left: 387px;
 top: 3958px;
 
-/* white */
+
 background: #FFFFFF;
 border-radius: 10px;
 border: none;
@@ -1270,7 +1190,6 @@ border: none;
   }
 
   .caption{
-    /* Copyrights */
 
 position: absolute;
 width: 203px;
@@ -1282,17 +1201,15 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
-line-height: 124.5%;
-/* or 17px */
 
-/* TEXT CLR */
-color: #5E6282;
+
+color: #5E6281;
 
 
   }
 
 .s{
-    /* Rectangle 1 */
+   
 
 position: absolute;
 width: 135px;
@@ -1300,7 +1217,7 @@ height: 50px;
 left: 932px;
 top: 3956px;
 
-/* gradient */
+
 background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
 border-radius: 10px;
 
@@ -1339,3 +1256,165 @@ border-radius: 10px;
     border-radius: 24px 24px 0 0 ;
 
 }
+
+
+
+.footer{
+ 
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+  
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        position: absolute;
+        top: 4110px;
+        left: 350px;
+        
+        width: 1000px;
+    
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+    margin-left: 38px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #5E6281;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #313245;
+	padding-left: 5px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+.foot-logo{
+
+position: absolute;
+width: 152px;
+height: 66px;
+left: 80px;
+top: 4120px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 66px;
+
+color: #181E4B;
+
+
+}
+
+.foot-line{
+    
+
+position: absolute;
+width: 207px;
+height: 48px;
+left: 80px;
+top: 4200px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 124.5%;
+
+color: #5E6282;
+
+
+}
+
+.pStore{
+position: absolute;
+width: 110px;
+left: 1170px;
+top: 4200px;
+}
+
+.aStore{
+position: absolute;
+width: 110px;
+left: 1299px;
+top: 4200px;
+}
+
+.discover{
+
+position: absolute;
+height: 25px;
+left: 1234px;
+top: 4160px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+
+color: #5E6282;
+
+
+}
+
